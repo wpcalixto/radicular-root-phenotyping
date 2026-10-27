@@ -2,12 +2,12 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23679263.svg)](https://doi.org/10.5281/zenodo.23679263)
 
-> **The dataset is on Zenodo.** This GitHub repository contains **everything except the dataset**: source code, trained models and documentation.
-> The **dataset** (rhizotron images, masks, blinded assessments, Wenner measurements and biomass) is archived **only on Zenodo**, in a single record together with this code and the trained models:
+> **The dataset is on Zenodo.** This GitHub repository contains **only the source code and documentation**.
+> The **dataset** (rhizotron images, masks, blinded assessments, Wenner measurements and biomass) and the **trained U-Net models** are archived on Zenodo, in a single record together with this code:
 >
 > **Zenodo record: [https://doi.org/10.5281/zenodo.23679263](https://doi.org/10.5281/zenodo.23679263)** (DOI 10.5281/zenodo.23679263)
 >
-> To reproduce the results, download `Radicular_Dataset_v1.0.0.zip` and `Radicular_Software_v1.0.0.zip` from the Zenodo record.
+> To reproduce the results, download `Radicular_Dataset_v1.0.0.zip` and `Radicular_Software_v1.0.0.zip` from the Zenodo record (the software archive also contains `models/`).
 > Please cite the Zenodo record (see `CITATION.cff`).
 
 ## What is here and what is on Zenodo
@@ -17,9 +17,9 @@
 | Source code, configuration, tools | ✔ | ✔ |
 | Documentation, environment, tests | ✔ | ✔ |
 | Dataset | — | ✔ |
-| Trained models (`models/`) | ✔ | ✔ |
+| Trained models (`models/`) | — | ✔ |
 
-Apart from this README, the files are identical to those of `Radicular_Software_v1.0.0.zip` on Zenodo (integrity checksums in `checksums/`).
+Apart from this README, the files are identical to those of `Radicular_Software_v1.0.0.zip` on Zenodo (the integrity checksums are in the Zenodo archive).
 
 ## Package documentation (as archived on Zenodo)
 

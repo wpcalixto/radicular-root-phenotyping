@@ -1,0 +1,13 @@
+evento,data,DAP,tratamento,delta_t,epsilon,dap_previsto,desvio_delta
+plantio,2025-04-23,0,,,,,
+adubacao,2025-04-23,0,T1,,,0,0
+adubacao,2025-05-23,30,T2,,,30,0
+adubacao,2025-06-22,60,T3,,,60,0
+germinacao,2025-04-30,7,,,,,
+coleta_1,2025-05-23,30,,,,,
+coleta_2,2025-05-31,38,,8,1,,
+coleta_3,2025-06-07,45,,7,0,,
+coleta_4,2025-06-14,52,,7,0,,
+coleta_5,2025-06-21,59,,7,0,,
+coleta_6,2025-06-28,66,,7,0,,
+coleta_7,2025-07-05,73,,7,0,,

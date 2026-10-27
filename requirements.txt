@@ -1,0 +1,20 @@
+# Verification environment of v1.0.0 (Python 3.9.6, macOS arm64), in which the analyses, image chain and figures
+# were re-executed (see docs/reproducibility.md). This is NOT the environment of the original executions,
+# whose library versions were not recorded (except the Colab training, see docs/06B_training_provenance.md).
+numpy==2.0.2
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.6.1
+statsmodels==0.14.6
+matplotlib==3.9.4
+opencv-python==5.0.0.93
+scikit-image==0.24.0
+Pillow==11.3.0
+pillow-heif==1.1.1
+openpyxl==3.1.5
+torch==2.8.0
+torchvision==0.23.0
+segmentation-models-pytorch==0.5.0
+timm==1.0.22
+simple-lama-inpainting==0.1.0
+# Figures with LaTeX text additionally need a TeX distribution (latex, dvipng); verification used TeX Live 2026.

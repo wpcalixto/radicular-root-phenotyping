@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Radicular: auditable longitudinal root phenotyping pipeline for rhizotron images and apparent electrical conductivity"
+type: software
+version: "1.0.0"
+doi: "10.5281/zenodo.23679263"
+license: MIT
+authors:
+  - family-names: "Calixto"
+    given-names: "Wesley Pacheco"
+    email: "wesley.pacheco@isr.uc.pt"
+    affiliation: "Universidade de Coimbra (UC), Portugal; Universidade Federal de Goiás (UFG), Brazil; Instituto Federal de Educação, Ciência e Tecnologia de Goiás (IFG), Brazil"
+keywords: [root phenotyping, rhizotron imaging, root segmentation, image inpainting, apparent electrical conductivity, U-Net, Frangi filter]
+references:
+  - type: article
+    title: "Auditable longitudinal root phenotyping in rhizotrons using Frangi--U-Net fusion and apparent conductivity"
+    journal: "Royal Society Open Science"
+    status: in-preparation
+  - type: data
+    title: "Radicular dataset v1.0.0 (multimodal rhizotron images, masks, assessments and measurements)"
+    doi: "10.5281/zenodo.23679263"
+  - type: data
+    title: "PRMI: A dataset of minirhizotron images for diverse plant root study"
+    doi: "10.5061/dryad.2v6wwpzp4"
+    notes: "Zenodo record 5974905; CC0 1.0"

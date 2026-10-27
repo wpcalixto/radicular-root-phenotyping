@@ -1,0 +1,16 @@
+evento,data,tratamento,rizotrons,dias_apos_plantio,fonte,observacao
+plantio,2025-04-23,,,0,confirmado_usuario,semeadura nos rizotrons (origem DAP=0)
+adubacao,2025-04-23,Tratamento 1,"R04,R05,R06",0,confirmado_usuario,adubacao no plantio (0 DAP)
+adubacao,2025-05-23,Tratamento 2,"R07,R08,R09",30,confirmado_usuario,30 DAP (relativo a semeadura)
+adubacao,2025-06-22,Tratamento 3,"R10,R11,R12",60,confirmado_usuario,60 DAP (relativo a semeadura)
+adubacao,,Referencia/Testemunha,"R01,R02,R03",,confirmado_usuario,sem adubacao (correcao quimica do solo em todas as unidades)
+germinacao,2025-04-30,,,,confirmado_usuario,registro de germinacao (7 DAP)
+coleta,2025-05-23,,"R01-R12",,confirmado_usuario,coleta 1 — 12 imagens + medicao eletrica (cond/resist/resistiv)
+coleta,2025-05-31,,"R01-R12",,confirmado_usuario,coleta 2 — 12 imagens + medicao eletrica
+coleta,2025-06-07,,"R01-R12",,confirmado_usuario,coleta 3 — 12 imagens + medicao eletrica
+coleta,2025-06-14,,"R01-R12",,confirmado_usuario,coleta 4 — 12 imagens + medicao eletrica
+coleta,2025-06-21,,"R01-R12",,confirmado_usuario,coleta 5 — 12 imagens + medicao eletrica
+coleta,2025-06-28,,"R01-R12",,confirmado_usuario,coleta 6 — 12 imagens + medicao eletrica
+coleta,2025-07-05,,"R02-R11",,confirmado_usuario,coleta 7 — 10 imagens; SEM medicao eletrica (faltam R01 e R12)
+periodo_experimento,2025-05-23 a 2025-07-05,,,,derivado,"janela de coletas radiculares (~6 semanas)"
+periodo_total,2025-04-23 a 2025-07-05,,,,derivado,"da semeadura a ultima coleta"

@@ -1,0 +1,11 @@
+# Two documented environments. Only versions that are recorded are pinned.
+# (1) verification environment of v1.0.0: see requirements.txt (Python 3.9.6).
+# (2) U-Net training (06B) in Google Colab, July 2026: only these pins are recorded in the notebook:
+#     segmentation-models-pytorch==0.3.4, albumentations==1.4.0; Python, torch and CUDA versions were not recorded.
+name: radicular-verification
+channels: [conda-forge]
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - -r requirements.txt

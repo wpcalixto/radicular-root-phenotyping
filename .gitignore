@@ -1,0 +1,19 @@
+# Generated workspaces and outputs
+ws/
+workspace*/
+entradas/
+saidas/
+metricas/
+tabdatas/
+figures/
+figdata/
+Artigo_revista/
+manifestos/
+modelos/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# Large binaries are distributed through Zenodo, not through Git
+models/*.pt
+models/checkpoints/
